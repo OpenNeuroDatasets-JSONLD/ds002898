@@ -10,7 +10,12 @@
             "Transformation": {
                 "TermURL": "nb:int",
                 "Label": "integer data"
-            }
+            },
+            "MissingValues": [
+                "",
+                "n/a",
+                " "
+            ]
         }
     },
     "sex": {
@@ -112,7 +117,10 @@
                 }
             },
             "MissingValues": [
-                "nan"
+                "nan",
+                "n/a",
+                "",
+                " "
             ]
         }
     },
@@ -152,7 +160,10 @@
                 }
             },
             "MissingValues": [
-                "nan"
+                "nan",
+                "n/a",
+                "",
+                " "
             ]
         }
     },
@@ -251,7 +262,10 @@
                 }
             },
             "MissingValues": [
-                "nan"
+                "nan",
+                "n/a",
+                "",
+                " "
             ]
         }
     },
