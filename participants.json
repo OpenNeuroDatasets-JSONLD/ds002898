@@ -7,15 +7,16 @@
                 "TermURL": "nb:Age",
                 "Label": ""
             },
-            "Transformation": {
-                "TermURL": "nb:FromInt",
-                "Label": "integer data"
-            },
             "MissingValues": [
                 "",
                 "n/a",
                 " "
-            ]
+            ],
+            "Format": {
+                "TermURL": "nb:FromInt",
+                "Label": "integer data"
+            },
+            "VariableType": "Continuous"
         }
     },
     "sex": {
@@ -38,7 +39,8 @@
                     "TermURL": "snomed:248153007",
                     "Label": ""
                 }
-            }
+            },
+            "VariableType": "Categorical"
         }
     },
     "handedness": {
@@ -84,7 +86,8 @@
             },
             "MissingValues": [
                 "no"
-            ]
+            ],
+            "VariableType": "Categorical"
         }
     },
     "visual_impairment_specify": {
@@ -121,7 +124,8 @@
                 " ",
                 "nan",
                 "n/a"
-            ]
+            ],
+            "VariableType": "Categorical"
         }
     },
     "mental_illness_history": {
@@ -143,7 +147,8 @@
             },
             "MissingValues": [
                 "no"
-            ]
+            ],
+            "VariableType": "Categorical"
         }
     },
     "mental_illness_history_specify": {
@@ -164,7 +169,8 @@
                 " ",
                 "nan",
                 "n/a"
-            ]
+            ],
+            "VariableType": "Categorical"
         }
     },
     "cardiovascular_disease": {
@@ -186,7 +192,8 @@
             },
             "MissingValues": [
                 "no"
-            ]
+            ],
+            "VariableType": "Categorical"
         }
     },
     "diabetes": {
@@ -208,7 +215,8 @@
             },
             "MissingValues": [
                 "no"
-            ]
+            ],
+            "VariableType": "Categorical"
         }
     },
     "regular_medication": {
@@ -241,7 +249,8 @@
             },
             "MissingValues": [
                 "no"
-            ]
+            ],
+            "VariableType": "Categorical"
         }
     },
     "current_smoker_specify": {
@@ -266,7 +275,8 @@
                 " ",
                 "nan",
                 "n/a"
-            ]
+            ],
+            "VariableType": "Categorical"
         }
     },
     "previous_smoker": {
@@ -285,7 +295,8 @@
             },
             "MissingValues": [
                 "no"
-            ]
+            ],
+            "VariableType": "Categorical"
         }
     },
     "previous_smoker_specify": {
@@ -335,7 +346,7 @@
                 "TermURL": "nb:ParticipantID",
                 "Label": ""
             },
-            "Identifies": "participant"
+            "VariableType": "Identifier"
         },
         "Description": "There should have been a description here, but there wasn't. :("
     }
